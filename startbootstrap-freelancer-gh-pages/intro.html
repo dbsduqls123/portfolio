@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <style>
+        .sw{
+          color:blue;
+        }
+        #smc{
+          color:green;
+          font-weight:bold;
+        }
+      </style>
+
+  </head>
+  <body>
+
+    <h1><a href="intro.html">윤여빈의 프로필</a></h1>
+    <h3 style="background-color:black;color:white">2학년 9반 10번 윤여빈</h3>
+    <h4><span class="sw">소프트웨어 1등,</span><span id="smc"> 세명컴퓨터고등학교</span></h4>
+    <script>
+      var day ={
+        "monday":"happy",
+        "tuesday":"sad",
+        "wendesday":"exciting"
+      };
+    </script>
+    <script>
+      for(var key in day){
+        document.write(key+':'+day[key]+'<br>');
+      }
+    </script>
+    <script>
+      var month=["monday", "tuesday", "wendesday", "thursday", "friday", "saturday", "sunday"];
+    </script>
+    <script>
+      document.write('오늘은'+month[2]+'입니다.');
+    </script>
+    <input type="button" id="pink_white" value="pink" onclick="
+      BodySetColor('white');
+      document.querySelector('body').style.backgroundColor='pink';">
+    <input type="button" id="question" value="email" onclick="
+    alert('tmomo1109@naver.com')">
+    <input type="button" id="change" value="id" onclick="
+    <script>
+        if(this.value==='on'){
+          simple.style.color('black');
+          simple.style.backgroundColor('yellow');
+          this.value='off''
+        }else{
+          simple.style.color('yellow');
+          simple.style.backgroundColor('black');
+          this.value='on';
+        }
+      }">
+      <input type="checkbox" name="java" value="javascript">
+      <input type="checkbox" name="c" value="c">
+      <input type="checkbox" name="python" value="python">
+    <ol>
+      <li><a href="1.html">a</a></li>
+      <li><a href="2.html">b</a></li>
+      <li><a href="3.html">c</a></li>
+    </ol>
+  </body>
+</html>
